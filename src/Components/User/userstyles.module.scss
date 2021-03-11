@@ -1,0 +1,25 @@
+.user_base{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1vw;
+    box-shadow: 0 0 10px 1px gray;
+    cursor:pointer;
+    .profile_img{
+        width:30%;
+        height:100%;
+        .user_image{
+            width:100%;
+            height:100%;
+        }
+    }
+
+    .profile_details{
+        width:70%;
+        .email{
+            font-style: italic;
+        }
+    }
+
+}
